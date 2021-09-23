@@ -76,7 +76,7 @@ class BinarySearchTree {
             node = this.root
         }
         let maxHeight = 0 
-        function recursiveHeight(node, height, maxHeight) {
+    function recursiveHeight(node, height, maxHeight) {
             height = 1
             if (node !== null) {
                 if (height > maxHeight) {

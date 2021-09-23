@@ -18,5 +18,5 @@ my_BST.insert(9)
 my_BST.insert(3)
 my_BST.insert(21)
 my_BST.insert(7)
-
-print(my_BST.search(21))
+print(my_BST.height(), "👹")
+#print(my_BST.search(21))
