@@ -1,17 +1,16 @@
+#     NODE CONSTRUCTOR 
 class Node:
-  # here we will add the constructor 
   def __init__(self, data): # override method
     self.data = data
     self.left = None
     self.right = None
-  # method overried of the string method for the node 
+  # ⬇️  method overried of the string method for the node 
   def __str__(self):
     return f'{self.data}'
   
 
-
+#     TREE CONSTRUCTOR 
 class BinaryTree:
-  # here we will add the constructor
   def __init__(self):
     self.root = None
 
@@ -44,7 +43,7 @@ class BinaryTree:
   def search(self, val):
     '''
       search(value: any) -> value or bool:\n 
-      Performs 💥 🔥 DEPTH FIRST SEARCH 🔥 💥
+      Performs 💥 🔥 DEPTH FIRST SEARCH 🔥 💥 - how deep the tree goes
       Search the Tree for a node with the given value
       If the node exists, return it
       If the node doesn't exist, return false
@@ -70,7 +69,7 @@ class BinaryTree:
   def print(self, node=None):
     '''
       print(node=optional: Node) -> None:\n
-      prints out all values recursively (in a 🌬 ✨ BREADTH FIRST SEARCH ✨ 💨 fashion)
+      prints out all values recursively (in a 🌬 ✨ BREADTH FIRST SEARCH ✨ 💨 fashion) - how wide 
       defualt start is at root node
     '''
     # check if this is the first recursion
